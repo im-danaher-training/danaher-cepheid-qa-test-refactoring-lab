@@ -50,3 +50,23 @@ Login logic is shared (not duplicated), there are no `Thread.sleep()` calls, ass
 
 ## Optional Challenge
 Introduce a small `LoginSteps` helper class used by both tests, and add a third test for the dashboard navigation flow using the same helper.
+
+## Copilot Customization Guide
+
+**Already provided:** `.github/instructions/copilot-instructions.md`.
+
+**New prompt file:** `.github/prompts/test-refactor-prompt.md`
+
+```
+Role: Refactor PortalWorkflowTest
+Task: remove duplication, replace sleep with explicit waits, add real assertions
+Constraints: keep test intent identical; no new dependencies
+Output: refactored class only
+```
+
+**Optional stretch tasks (build these yourself â€” not provided):**
+- Custom agent: create `.github/agents/qa-refactor-agent.agent.md` defining a persona that removes automation duplication and replaces hardcoded waits with explicit waits.
+- Skill: create `.github/skills/test-refactor-checklist/SKILL.md` capturing a reusable checklist for cleaning up Selenium/TestNG automation without changing behavior.
+- `AGENTS.md`: optionally add a root-level file summarizing repo conventions for cross-tool agent compatibility (Copilot CLI and other agentic tools read this file).
+
+**Enterprise tip:** Enterprise Copilot usage favors small, structured, reusable prompts over long free-form ones. State `Role / Task / Constraints / Output` in under ~5 lines â€” this keeps token usage low and responses focused, which matters when Copilot is used constantly across a team.
