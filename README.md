@@ -12,6 +12,7 @@ Learn to use GitHub Copilot inside **IntelliJ IDEA** to complete a realistic Dan
 - Maven 3.9+
 - GitHub Copilot and GitHub Copilot Chat plugins enabled in IntelliJ
 - Git
+- Google Chrome installed (Selenium Manager auto-downloads the matching ChromeDriver)
 
 ## IntelliJ Setup
 1. Open IntelliJ IDEA and choose **File > Open**, then select this repository folder.
