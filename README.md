@@ -64,9 +64,9 @@ Constraints: keep test intent identical; no new dependencies
 Output: refactored class only
 ```
 
-**Optional stretch tasks (build these yourself â€” not provided):**
+**Optional stretch tasks (build these yourself - not provided):**
 - Custom agent: create `.github/agents/qa-refactor-agent.agent.md` defining a persona that removes automation duplication and replaces hardcoded waits with explicit waits.
 - Skill: create `.github/skills/test-refactor-checklist/SKILL.md` capturing a reusable checklist for cleaning up Selenium/TestNG automation without changing behavior.
 - `AGENTS.md`: optionally add a root-level file summarizing repo conventions for cross-tool agent compatibility (Copilot CLI and other agentic tools read this file).
 
-**Enterprise tip:** Enterprise Copilot usage favors small, structured, reusable prompts over long free-form ones. State `Role / Task / Constraints / Output` in under ~5 lines â€” this keeps token usage low and responses focused, which matters when Copilot is used constantly across a team.
+**Enterprise tip:** Enterprise Copilot usage favors small, structured, reusable prompts over long free-form ones. State `Role / Task / Constraints / Output` in under ~5 lines - this keeps token usage low and responses focused, which matters when Copilot is used constantly across a team.
