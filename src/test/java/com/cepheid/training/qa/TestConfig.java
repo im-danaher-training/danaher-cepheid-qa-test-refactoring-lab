@@ -1,4 +1,4 @@
-﻿package com.cepheid.training.qa;
+package com.cepheid.training.qa;
 
 import java.io.File;
 

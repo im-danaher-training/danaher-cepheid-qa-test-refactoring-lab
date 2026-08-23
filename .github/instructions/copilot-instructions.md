@@ -1,4 +1,4 @@
-﻿# Copilot instructions
+# Copilot instructions
 
 - This is an IntelliJ IDEA + Maven + Selenium + TestNG QA automation training repository for a Danaher/Cepheid workshop.
 - The application under test is a small local static HTML portal in `app/`. Tests should open pages using local `file:///` URLs or the provided `PortalUrl` helper.

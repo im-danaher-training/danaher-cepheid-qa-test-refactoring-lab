@@ -1,4 +1,4 @@
-﻿package com.cepheid.training.qa;
+package com.cepheid.training.qa;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
